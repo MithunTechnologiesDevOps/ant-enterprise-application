@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>MithunTechnologies- Home Page</title>
-<link href="../images/mithunlogo.jpg" rel="icon">
+<link href="${pageContext.request.contextPath}/images/mithunlogo.jpg" rel="icon">
 </head>
 </head>
 <body>
@@ -14,7 +14,8 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="..mithunlogo.jpg" alt="" width="100"/>
+		<img src="${pageContext.request.contextPath}/images/mithunlogo.jpg" alt="" width="100"/>
+
 	</span>
 	<span style="font-weight: bold;">
 		Mithun Technologies, 
@@ -24,7 +25,7 @@
 	</span>
 </div>
 <hr>
-	<p> Service : <a href="http://localhost:9080/ant-enterprise-application/services/getEmployeeDetails">Get Employee Details </p>
+	<p> Service : <a href="http://localhost:9080/ant-web-application/services/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
 <p align=center><small>Copyrights 2018 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
